@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>zotero+obsidian+scispace提升科研论文阅读效率</title>
+      <link href="/2023/02/25/zotero-obsidian-scispace%E6%8F%90%E5%8D%87%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E6%95%88%E7%8E%87/"/>
+      <url>/2023/02/25/zotero-obsidian-scispace%E6%8F%90%E5%8D%87%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E6%95%88%E7%8E%87/</url>
+      
+        <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li>zotero是一款文献管理软件，之前一直使用endnote，但是发现有个问题是，其中导入文献不能直接与另外两个软件进行联用，因此就选用了zotero进行管理文档。</li><li>obsidian是一个小众化的笔记软件，再b站有详细教程<em>Johnny学OB</em>，可以将知识进行原子化，挺好用的，语法是markdown格式，可拓展性特别好，有许多开源的插件。</li><li>scispace主要是一个内嵌了阅读总结文献的机器人，是一个网页版的工具，阅读文献时，具备一定的辅助功能。</li></ul><h3 id="一、下载三个软件以及相应的插件"><a href="#一、下载三个软件以及相应的插件" class="headerlink" title="一、下载三个软件以及相应的插件"></a>一、下载三个软件以及相应的插件</h3><ol><li>zotero软件下载[[<a href="https://www.zotero.org]]，插件直接再浏览器的扩展中搜索zotero">https://www.zotero.org]]，插件直接再浏览器的扩展中搜索zotero</a> connect, 相应的插件分别为<strong>Better Bibtex</strong>下载地址为[[<a href="https://github.com/retorquere/zotero-better-bibtex]]；">https://github.com/retorquere/zotero-better-bibtex]]；</a></li><li>obsidian下载地址[[<a href="https://obsidian.md/download]]，其中的插件可以在第三方插件--&gt;社区插件---&gt;直接搜索(Citations),或者直接在网页中下载[[https://github.com/hans/obsidian-citation-plugin]]，然后将文件中三个文件分别为main.js/mainifest.json/styles.css直接在obsidian库文件夹.obsidian里面的plugins文件夹里新建一个citations文件夹，如果两个文件夹都没有则都重新建立；">https://obsidian.md/download]]，其中的插件可以在第三方插件--&gt;社区插件---&gt;直接搜索(Citations),或者直接在网页中下载[[https://github.com/hans/obsidian-citation-plugin]]，然后将文件中三个文件分别为main.js/mainifest.json/styles.css直接在obsidian库文件夹.obsidian里面的plugins文件夹里新建一个citations文件夹，如果两个文件夹都没有则都重新建立；</a></li><li>关于scispace相对来说比较简单，直接是网页版的，网址为[[<a href="https://typeset.io/]]，注册之后就可以直接使用了。">https://typeset.io/]]，注册之后就可以直接使用了。</a><h3 id="二、插件安装中的问题"><a href="#二、插件安装中的问题" class="headerlink" title="二、插件安装中的问题"></a>二、插件安装中的问题</h3></li><li>其中遇到一个很头疼的问题，就是大多数网上的教程都会让你生成JSON文件，也就是下图的1，但不知道为啥，我这边电脑采用JSON文件，插件直接显示不了，我也不知道是啥问题。我直接换用了下图中的2，也就是采用BIB格式，这个时候就可以直接识别到文件的地址了，其他的按照网上的教程来，只要是obsidian中的文件地址以及注释的地址没问题，就可以正常在obsidian中很好的使用了。<br>![[Pasted image 20230224143439.png]]</li><li>接下来就可以将你的文献从zotero导入到obsidian中做阅读笔记；然后可以将文献导入网页版的scispace帮辅性的解读。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演讲 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PPT设计 </tag>
+            
+            <tag> 必备技能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Dada-first-blog</title>
       <link href="/2023/02/20/Dada-first-blog/"/>
       <url>/2023/02/20/Dada-first-blog/</url>
