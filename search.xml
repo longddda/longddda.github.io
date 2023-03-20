@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>动手学深度学习-1</title>
+      <link href="/2023/03/20/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-1/"/>
+      <url>/2023/03/20/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一课-配置环境"><a href="#第一课-配置环境" class="headerlink" title="第一课 配置环境"></a>第一课 配置环境</h1><p>由于之前学习了一点点tensorflow，所以直接配置了一下pytorch的环境，主要是将两者安装到同一个文件夹中，采用如下代码，就可以直接配置conda,并且成功运行。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#首先时查看tensorflow的文件位置，也就是虚拟环境的位置</span></span><br><span class="line">conda env <span class="built_in">list</span></span><br><span class="line"><span class="comment">#随后直接激活tensorflow这个文件夹，并且在这个文件夹中进行运行</span></span><br><span class="line">pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117</span><br></pre></td></tr></table></figure><br>随后就可以很好地在一个环境中，进行运行pytorch以及tensorflow了，感觉很好。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#调试</span></span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="comment">#设置一个张量并且可以打印成功，就表示环境配置结束</span></span><br><span class="line">x = torch.arange(<span class="number">12</span>)</span><br><span class="line"><span class="built_in">print</span>(x)</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据科学，深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>列表以及其相关操作</title>
       <link href="/2023/03/13/%E5%88%97%E8%A1%A8%E4%BB%A5%E5%8F%8A%E5%85%B6%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
       <url>/2023/03/13/%E5%88%97%E8%A1%A8%E4%BB%A5%E5%8F%8A%E5%85%B6%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</url>
