@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>linux系统配置shell脚本方法</title>
+      <link href="/2023/05/27/%E9%85%8D%E7%BD%AElinux%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95/"/>
+      <url>/2023/05/27/%E9%85%8D%E7%BD%AElinux%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="linux系统配置shell脚本"><a href="#linux系统配置shell脚本" class="headerlink" title="linux系统配置shell脚本"></a>linux系统配置shell脚本</h1><h4 id="基于一些合理的shell脚本方便我们更好地实现一些功能，我们通常会采用配置一些脚本，配置脚本的方法如下"><a href="#基于一些合理的shell脚本方便我们更好地实现一些功能，我们通常会采用配置一些脚本，配置脚本的方法如下" class="headerlink" title="基于一些合理的shell脚本方便我们更好地实现一些功能，我们通常会采用配置一些脚本，配置脚本的方法如下"></a>基于一些合理的shell脚本方便我们更好地实现一些功能，我们通常会采用配置一些脚本，配置脚本的方法如下</h4><ul><li>将bash脚本放在Scripts下面；</li><li>将其他的指令文件放置在bin文件夹中；</li><li>打开linux终端；</li><li>进入根目录，比如我个人的根目录longddda<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /path/to/longddda</span><br></pre></td></tr></table></figure></li><li>确保已经将Scripts文件路径添加到环境变量中，可以通过一下命令检查：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $PATH</span><br></pre></td></tr></table></figure></li><li>如果Scripts文件夹的路径没有显示在输出中，你需要将其添加到环境变量。可以编辑你的bash配置文件（如~/.bashrc 或 ~/.bash_profile），在其中添加以下行：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=&quot;/home/user/longddda/Scripts:$PATH&quot;</span><br></pre></td></tr></table></figure></li><li>然后保存并关闭文件，并执行以下命令使更改生效：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure></li><li>现在就可以很好地调用bin中的脚本了。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科研 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux系统 </tag>
+            
+            <tag> shell脚本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>集成学习</title>
       <link href="/2023/03/30/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/"/>
       <url>/2023/03/30/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/</url>
